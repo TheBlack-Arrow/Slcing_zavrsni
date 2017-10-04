@@ -1,0 +1,214 @@
+.section-07 {
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+
+.section-07-textbox-top {
+    width: 62%;
+    height: 80px;
+    display: block;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.section-07-textbox-top-text {
+    display: inline-block;
+    width: 600px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 40px;
+    color: $darkgrey;
+}
+
+.section-07-textbox-top-button {
+    display: inline-block;
+    width: 222px;
+    height: 62px;
+    margin-left: 230px;
+    background: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/start_free_trial_unclicked.png');
+    background-repeat: no-repeat;
+}
+
+.section-07-textbox-top-button:hover {
+    background: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/start_free_trial_hovered.png');
+}
+
+.section-07-divider {
+    display: block;
+    height: 1px;
+    margin-top: 90px;
+    background-color: #e7eff1;
+}
+
+.section-07-textbox-middle {
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    width: 1295px;
+    height: 270px;
+}
+
+.section-07-textbox-middle-textbox-01 {
+    float: left;
+    margin: 0px 50px 0 50px;
+    width: 190px;
+    height: 130px;
+}
+
+.section-07-textbox-middle-textbox-01-image {
+    width: 54px;
+    height: 54px;
+    margin-top: 23px;
+    margin-bottom: -15px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/grid.png');
+    background-repeat: no-repeat;
+}
+
+.section-07-textbox-middle-textbox-01-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: $grey;
+    margin-top: 40px;
+}
+
+.section-07-textbox-middle-textbox-02 {
+    width: 235px;
+    float: left;
+    margin: 0px 50px 0 50px;
+}
+
+.section-07-textbox-middle-textbox-02-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: $darkgrey;
+    margin-bottom: 20px;
+}
+
+.section-07-textbox-middle-textbox-02-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    color: $grey;
+}
+
+.section-07-textbox-middle-textbox-03 {
+    width: 235px;
+    float: left;
+    margin: 0px 50px 0 50px;
+}
+
+.section-07-textbox-middle-textbox-03-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: $darkgrey;
+    margin-bottom: 20px;
+}
+
+.section-07-textbox-middle-textbox-03-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    color: $grey;
+}
+
+.section-07-textbox-middle-textbox-04 {
+    width: 235px;
+    float: left;
+    margin: 0px 50px 0 50px;
+}
+
+.section-07-textbox-middle-textbox-04-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: $darkgrey;
+    margin-bottom: 20px;
+}
+
+.section-07-textbox-middle-textbox-04-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    color: $grey;
+}
+
+.section-07-textbox-middle-textbox-04-text span { line-height: 30px; }
+
+.section-07-textbox-bottom {
+    display: block;
+    margin: auto;
+    margin-top: 125px;
+    width: 1195px;
+    height: 64px;
+}
+
+.section-07-textbox-bottom-text {
+    float: left;
+    font-size: 11px;
+    font-weight: 500;
+    color: $grey;
+}
+
+.section-07-textbox-bottom-social {
+    float: right;
+    width: 168px;
+    height: 64px;
+}
+
+.section-07-textbox-bottom-social-facebook {
+    float: right;
+    width: 64px;
+    height: 64px;
+    margin: 0px 10px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/facebook-button.png');
+    background-repeat: no-repeat;
+}
+
+.section-07-textbox-bottom-social-twitter {
+    float: right;
+    width: 64px;
+    height: 64px;
+    margin: 0px 10px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/twitter-button.png');
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1720px) {
+    .section-07-textbox-top-button {
+        display: block;
+        margin: auto;
+        margin-left: 0%;
+        margin-top: 70px;
+    }
+
+    .section-07-divider { margin-top: 230px; }
+}
+
+@media (max-width: 1311px) {
+    .section-07-textbox-middle-textbox-01 { margin: 0% 10%; margin-bottom: 100px; }
+
+    .section-07-textbox-middle-textbox-02 { margin: 0% 10%; margin-bottom: 100px; }
+
+    .section-07-textbox-middle-textbox-03 { margin: 0% 10%; margin-bottom: 100px; }
+
+    .section-07-textbox-middle-textbox-04 { margin: 0% 6.5%; margin-right: 10%; margin-bottom: 100px; }
+
+    .section-07-textbox-bottom { width: 40%; margin-top: 500px; }
+
+    .section-07-textbox-bottom-text { float: left; margin-left: 5%; }
+
+    .section-07-textbox-bottom-social { float: left; margin-left: 20%; margin-top: 50px;}
+}
+
+@media (max-width: 900px) {
+    .section-07-textbox-middle-textbox-01 { margin: 0% 20%; margin-bottom: 100px; }
+
+    .section-07-textbox-middle-textbox-02 { margin: 0% 20%; margin-bottom: 100px; }
+
+    .section-07-textbox-middle-textbox-03 { margin: 0% 20%; margin-bottom: 100px; }
+
+    .section-07-textbox-middle-textbox-04 { margin: 0% 20%; margin-right: 10%; margin-bottom: 100px; }
+
+    .section-07-textbox-bottom { margin-top: 1200px; }
+}

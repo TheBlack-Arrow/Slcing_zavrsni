@@ -1,0 +1,136 @@
+.section-02 {
+    width: 100%;
+    height: 1130px;
+    background-color: white;
+}
+
+.section-02-laptop {
+    width: 576px;
+    height: 761px;
+    display: inline-block;
+    margin-top: 180px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/laptop1.png');
+    background-repeat: no-repeat;
+    
+    -webkit-filter: drop-shadow(-50px 200px 65px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(-50px 200px 65px rgba(0, 0, 0, 0.5));
+}
+
+.section-02-textbox-big {
+    display: table;
+    width: 330px;
+    height: 590px;
+    margin-left: 41%;
+    margin-top: -675px;
+}
+
+.section-02-textbox-big-image {
+    width: 72px;
+    height: 72px;
+    display: inline-block;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/phonecall_button.png');
+    background-repeat: no-repeat;
+}
+
+.section-02-textbox-big-title {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 55px;
+    color: $darkgrey;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.section-02-textbox-big-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 35px;
+    color: $grey;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.section-02-textbox-big-button {
+    width: 222px;
+    height: 62px;
+    background: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/learn_more_unclicked.png');
+    background-repeat: no-repeat;
+
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: none;
+    -moz-box-shadow: 0px 15px 15px #e4e4e4; 
+    -webkit-box-shadow: 0px 15px 15px #e4e4e4; 
+    box-shadow: 0px 15px 15px #e4e4e4;
+}
+
+.section-02-textbox-big-button:hover {
+    background: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/learn_more_hovered.png');
+}
+
+.section-02-textbox-small {
+    width: 300px;
+    height: 200px;
+    border-radius: 40px;
+    background-color: #e6f8fc;
+    position: absolute;
+    top: 1350px;
+    right: 360px;
+}
+
+.section-02-textbox-small-text {
+    color: #56c8ec;
+    font-size: 15px;
+    line-height: 30px;
+    padding-top: 115px;
+    padding-left: 50px;
+}
+
+.section-02-phone {
+    width: 305px;
+    height: 620px;
+    position: absolute;
+    top: 810px;
+    right: 305px;
+    background: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/phone_big.png');
+    background-repeat: no-repeat;
+
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    border: none;
+    -moz-box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.4); 
+    -webkit-box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.4); 
+    box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1780px) {
+    .section-02-phone {
+        display: none;
+    }
+
+    .section-02-textbox-small {
+        display: none;
+    }
+}
+
+@media (max-width: 1510px) {
+    .section-02-laptop {
+        /*visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s 0.4s, opacity 0.4s linear;*/
+        display: none;
+    }
+
+    .section-02-textbox-big {
+        display: block;
+        margin: auto;
+        margin-top: 170px;
+    }
+
+    .section-02 {
+    width: 100%;
+    height: 830px;
+}
+}

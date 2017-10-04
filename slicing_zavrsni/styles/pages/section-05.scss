@@ -1,0 +1,277 @@
+.section-05 {
+    width: 100%;
+    height: 2180px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/section-05.jpg');
+    background-repeat: no-repeat;
+}
+
+.section-05-header {
+    display: block;
+    margin: auto;
+}
+
+.section-05-header-text {
+    font-size: 25px;
+    font-weight: 500;
+    color: $grey;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.section-05-header-brands {
+    display: block;
+    margin: auto;
+    padding-top: 90px;
+    width: 1068px;
+    height: 45px;
+}
+
+.section-05-header-brands-airbnb {
+    display: inline-block;
+    width: 145px;
+    height: 45px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/airbnb-logo.png');
+    background-repeat: no-repeat;
+}
+
+.section-05-header-brands-facebook {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-left: 70px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/facebook-logo.png');
+    background-repeat: no-repeat;
+}
+
+.section-05-header-brands-uber {
+    display: inline-block;
+    width: 195px;
+    height: 45px;
+    margin-left: 50px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/uber-logo.jpg');
+    background-repeat: no-repeat;
+}
+
+.section-05-header-brands-medium {
+    display: inline-block;
+    width: 52px;
+    height: 45px;
+    margin-left: 50px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/medium-logo.png');
+    background-repeat: no-repeat;
+}
+
+.section-05-header-brands-hootsuite {
+    display: inline-block;
+    width: 193px;
+    height: 45px;
+    margin-left: 70px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/hootsuite-logo.jpg');
+    background-repeat: no-repeat;
+}
+
+.section-05-header-brands-edn {
+    display: inline-block;
+    width: 117px;
+    height: 45px;
+    margin-left: 60px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/edn-logo.jpg');
+    background-repeat: no-repeat;
+}
+
+.section-05-divider {
+    display: block;
+    height: 1px;
+    margin-top: 160px;
+    background-color: #e7eff1;
+}
+
+/* *******************************************************
+********************* CONTENT BOXES **********************
+******************************************************** */
+
+/********************** COLLUMN 1 ************************/
+
+.section-05-contentbox {
+    display: block;
+    margin: auto;
+    width: 1269px;
+    height: 1615px;
+    margin-top: 150px;
+}
+
+.section-05-contentbox-collumn-01 {
+    display: inline-block;
+    margin: 0px 40px 0px 40px;
+    width: 340px;
+    height: 1300px;
+}
+
+.section-05-contentbox-0101 { height: 280px; }
+
+.section-05-contentbox-0101-image {
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/plus_button.png');
+    background-repeat: no-repeat;
+}
+
+.section-05-contentbox-0101-text {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 55px;
+    color: $darkgrey;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.section-05-contentbox-0201 { background-color: #38454e; }
+
+.section-05-contentbox-0201-image {
+    width: 340px;
+    height: 202px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/old-phone.png');
+    background-repeat: no-repeat;
+}
+
+.section-05-contentbox-0301 { background-color: white; }
+
+.section-05-contentbox-0301-image {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/girl-photo.png');
+    background-repeat: no-repeat;
+}
+
+.section-05-contentbox-0301-text span.italic {
+    font-weight: 500;
+    word-spacing: 7px;
+    color: $darkgrey;
+}
+
+.section-05-contentbox-0301-text {
+    width: 240px;
+    margin-top: 180px;
+    color: $grey;
+}
+
+/********************** COLLUMN 2 ************************/
+
+.section-05-contentbox-collumn-02 {
+    display: inline-block;
+    margin: 0px 40px 0px 40px;
+    padding-top: 200px;
+    width: 340px;
+    height: 1300px;
+}
+
+.section-05-contentbox-0102 {
+    background-color: #0db3e3;
+}
+
+.section-05-contentbox-0102-image {
+    width: 340px;
+    height: 300px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/world.png');
+    background-repeat: no-repeat;
+}
+
+.section-05-contentbox-0202 { background-color: #6d60b0; }
+
+.section-05-contentbox-0202-image {
+    width: 340px;
+    height: 215px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/earphones.png');
+    background-repeat: no-repeat;
+}
+
+.section-05-contentbox-0202-text { width: 240px; }
+
+.section-05-contentbox-0302 { background-color: #67b930; }
+
+.section-05-contentbox-0302-image {
+    width: 340px;
+    height: 193px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/green-folder.png');
+    background-repeat: no-repeat;
+}
+
+/********************** COLLUMN 3 ************************/
+
+.section-05-contentbox-collumn-03 {
+    display: inline-block;
+    margin: 0px 40px 0px 40px;
+    width: 340px;
+    height: 1300px;
+}
+
+.section-05-contentbox-0103 { background-color: #ffbb44 }
+
+.section-05-contentbox-0103-image {
+    width: 340px;
+    height: 195px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/headphones-yellow.png');
+    background-repeat: no-repeat;
+}
+
+.section-05-contentbox-0203 { background-color: white; }
+
+.section-05-contentbox-0203-image {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/guy-photo.png');
+    background-repeat: no-repeat;
+}
+
+.section-05-contentbox-0203-text span.italic {
+    font-weight: 500;
+    word-spacing: 7px;
+    color: $darkgrey;
+}
+
+.section-05-contentbox-0203-text {
+    width: 240px;
+    margin-top: 180px;
+    color: $grey;
+}
+.section-05-contentbox-0303 {
+    background-color: #ea553d;
+}
+
+.section-05-contentbox-0303-image {
+    width: 340px;
+    height: 200px;
+    background-image: url('file:///C:/Users/MERI/Documents/Visual Studio Code/slicing_zavrsni/images/red-float.png');
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1700px) {
+    .section-05-header-brands-airbnb { display: block; margin: auto; margin-top: 30px; }
+
+    .section-05-header-brands-facebook { display: block; margin: auto; margin-top: 30px; }
+
+    .section-05-header-brands-uber { display: block; margin: auto; margin-top: 30px; }
+
+    .section-05-header-brands-medium { display: block; margin: auto; margin-top: 30px; }
+
+    .section-05-header-brands-hootsuite { display: block; margin: auto; margin-top: 30px; }
+
+    .section-05-header-brands-edn { display: block; margin: auto; margin-top: 30px; }
+
+    .section-05-divider {
+        margin-top: 560px;
+    }
+
+    .section-05 { height: 5200px; }
+
+    .section-05-contentbox-collumn-01 { margin: 0% 20%; }
+
+    .section-05-contentbox-collumn-02 { margin: 0% 20%; padding-top: 20px;}
+
+    .section-05-contentbox-collumn-03 { margin: 0% 20%; padding-top: 190px;}
+}
